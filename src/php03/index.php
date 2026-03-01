@@ -38,7 +38,7 @@ $question = $options[mt_rand(0, 3)];
     <main>
         <div class="quiz__content">
             <div class="question">
-                <p class="question__text">Q. 以下の内容に当てはまるステータスコードを選んでください</p>
+                <p class="question__text">Q. 以下の内容に当てはまるステータスコードを選んでください。</p>
                 <p class="question__text">
                     <?php echo $question['description'] ?>
                 </p>
@@ -58,7 +58,7 @@ $question = $options[mt_rand(0, 3)];
                 </div>
                 <div class="quiz-form__button">
                     <button class="quiz-form__button-submit" type="submit">
-                        回答
+                        回答する
                     </button>
                 </div>
             </form>
