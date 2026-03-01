@@ -46,7 +46,7 @@ foreach ($status_codes as $status_code) {
         <div class="result__content">
             <div class="result">
                 <?php if ($result): ?>
-                    <h2 class="result__text--correct">正解</h2>
+                    <h2 class="result__text--correct">正解!</h2>
                 <?php else: ?>
                     <h2 class="result__text--incorrect">不正解</h2>
                 <?php endif; ?>
