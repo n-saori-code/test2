@@ -58,7 +58,7 @@ $question = $options[mt_rand(0, 3)];
                 </div>
                 <div class="quiz-form__button">
                     <button class="quiz-form__button-submit" type="submit">
-                        回答する
+                        回答
                     </button>
                 </div>
             </form>
